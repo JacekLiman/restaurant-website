@@ -44,7 +44,7 @@ const Header = () => {
               <Nav />
             </div>
 
-            <a className="ml-48" href="#">
+            <a className=" inline-block md:ml-48" href="#">
               <img className="w-[90px] lg:w-auto" src={LogoWhite} alt="" />
             </a>
             <div className="hidden md:block">
