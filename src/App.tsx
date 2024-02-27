@@ -1,7 +1,10 @@
+import Hero from "./component/Hero";
+
+
 function App() {
   return (
-    <div className="">
-      <div className="container mx-auto bg-red-200">rfrdfgrd</div>
+    <div className="max-w-[1800px] mx-auto overflow-hidden">
+      <Hero />
     </div>
   );
 }
