@@ -13,7 +13,7 @@ const Team = () => {
   } = teamData;
 
   return (
-    <section className="bg-white py-10">
+    <section className="bg-white pt-20">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-0">
           <div className="text-center md:text-left">
