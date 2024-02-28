@@ -2,6 +2,7 @@ import About from "./component/About";
 import Header from "./component/Header";
 import Hero from "./component/Hero";
 import Menu from "./component/Menu";
+import Team from "./component/Team";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <Hero />
       <About />
       <Menu />
-      
+      <Team />
     </div>
   );
 }

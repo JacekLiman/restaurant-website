@@ -3,16 +3,16 @@ import { menuData } from "../data";
 const Menu = () => {
   const { title, subtitle, modelImg, btnText, menuItems } = menuData;
   return (
-    <section className="-mt-2 pb-10">
+    <section className="-mt-2 pb-10 bg-white">
       <div>
-        <div className="bg-menu bg-center bg-cover min-h-[800px] flex justify-center items-center relative">
+        <div className="bg-menu bg-center bg-cover min-h-[800px] flex justify-center items-center">
           <div className="text-white text-center -mt-40">
             <h2 className="h2 capitalize text-white max-w-[500px]">{title}</h2>
             <p>{subtitle}</p>
             <img className="mx-auto mt-5" src={modelImg} alt="" />
           </div>
         </div>
-        <div className="container mx-auto relative z-40">
+        <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-0 -mt-80">
             {menuItems.map((item, idx) => {
               return (

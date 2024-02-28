@@ -20,7 +20,7 @@ const About = () => {
       <div className="container mx-auto ">
         <div className="grid grid-cols-1 md:grid-cols-2 min-h-[620px]">
           <div className="flex flex-col justify-center items-center md:items-start">
-            <p className="uppercase text-accent text-base font-semibold mb-2">
+            <p className="pretitle">
               {pretitle}
             </p>
             <h2 className="h2 capitalize">{title}</h2>
