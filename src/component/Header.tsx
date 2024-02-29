@@ -28,14 +28,17 @@ const Header = () => {
       >
         <div className="container mx-auto">
           <div className="flex items-center justify-between relative">
-            <button
-              onClick={handleRotateButton}
-              className={` ${
-                isButtonClicked ? "rotate-[360deg]" : "rotate-[0deg]"
-              } text-4xl  transition duration-500`}
-            >
-              <LuCircleEqual className="text-white hover:text-accent" />
-            </button>
+            <div data-aos="fade-down" data-aos-delay="500">
+              <button
+                onClick={handleRotateButton}
+                className={` ${
+                  isButtonClicked ? "rotate-[360deg]" : "rotate-[0deg]"
+                } text-4xl  transition duration-500`}
+              >
+                <LuCircleEqual className="text-white hover:text-accent" />
+              </button>
+            </div>
+
             <div
               className={` ${
                 isButtonClicked ? "max-h-[380px]" : "max-h-[0px]"
@@ -44,10 +47,10 @@ const Header = () => {
               <Nav />
             </div>
 
-            <a className=" inline-block md:ml-48" href="#">
+            <a data-aos="fade-down" data-aos-delay="900" className=" inline-block md:ml-48" href="#">
               <img className="w-[90px] lg:w-auto" src={LogoWhite} alt="" />
             </a>
-            <div className="hidden md:block">
+            <div data-aos="fade-down" data-aos-delay="1200" className="hidden md:block">
               <Socials />
             </div>
           </div>

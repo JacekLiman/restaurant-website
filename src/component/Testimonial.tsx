@@ -6,7 +6,8 @@ const Testimonial = () => {
   return (
     <section className="bg-white bg-testimonial bg-no-repeat bg-cover py-20 -mt-7">
       <div className="mx-auto container">
-        <div>
+        <div  data-aos="fade-up" data-aos-offset="600"
+            >
           <div className="text-center">
             <h2 className="h2 text-white capitalize">{title}</h2>
             <p className="text-white mt-2 mb-4 capitalize">{subtitle}</p>

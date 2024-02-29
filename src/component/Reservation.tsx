@@ -24,7 +24,7 @@ const Reservation = () => {
   return (
     <section className="py-20 bg-white">
       <div className="container mx-auto">
-        <div>
+        <div data-aos="fade-up" data-aos-offset="600">
           <div className="text-center">
             <h2 className="h2 capitalize">{title}</h2>
             <p className="text-dark mb-8">{subtitle}</p>

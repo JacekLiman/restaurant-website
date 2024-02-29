@@ -6,14 +6,18 @@ const Menu = () => {
     <section className="-mt-2 pb-10 bg-white">
       <div>
         <div className="bg-menu bg-center bg-cover min-h-[800px] flex justify-center items-center">
-          <div className="text-white text-center -mt-40">
+          <div data-aos="fade-down" className="text-white text-center -mt-40">
             <h2 className="h2 capitalize text-white max-w-[500px]">{title}</h2>
             <p>{subtitle}</p>
             <img className="mx-auto mt-5" src={modelImg} alt="" />
           </div>
         </div>
         <div className="container mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-0 -mt-80">
+          <div
+            data-aos="fade-up"
+            data-aos-offset="400"
+            className="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-0 -mt-80"
+          >
             {menuItems.map((item, idx) => {
               return (
                 <div
