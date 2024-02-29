@@ -5,12 +5,14 @@ const Hero = () => {
 
   return (
     <section className="h-screen bg-hero bg-no-repeat bg-cover bg-right lg:bg-center">
-      <div className="flex justify-center items-center h-full">
-        <div data-aos="fade-up" className="text-center mt-20">
-          <h4 className="h4">{pretitle}</h4>
-          <h1 className="h1 mt-5">{title}</h1>
-          <p className="max-w-[600px] my-8 text-white">{subtitle}</p>
-          <button className="btn mx-auto">{btnText}</button>
+      <div className="container mx-auto h-full">
+        <div className="flex justify-center items-center h-full">
+          <div data-aos="fade-up" className="text-center mt-20">
+            <h4 className="h4">{pretitle}</h4>
+            <h1 className="h1 mt-5">{title}</h1>
+            <p className="max-w-[600px] my-8 text-white">{subtitle}</p>
+            <button className="btn mx-auto">{btnText}</button>
+          </div>
         </div>
       </div>
     </section>

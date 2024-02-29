@@ -15,7 +15,6 @@ const Menu = () => {
         <div className="container mx-auto">
           <div
             data-aos="fade-up"
-            data-aos-offset="400"
             className="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-0 -mt-80"
           >
             {menuItems.map((item, idx) => {

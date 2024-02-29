@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <footer className="bg-footer  bg-no-repeat bg-cover bg-left-top -mt-3 pt-40 pb-10 ">
       <div className="container mx-auto">
-        <div data-aos="fade-up" data-aos-offset="600">
+        <div data-aos="fade-up">
           <div className="flex flex-col items-center text-grey text-center gap-10">
             <div>
               <h5 className="h5 not-italic capitalize mb-5">{contact.title}</h5>
